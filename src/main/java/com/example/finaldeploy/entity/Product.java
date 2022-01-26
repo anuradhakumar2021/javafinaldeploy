@@ -1,6 +1,8 @@
 package com.example.finaldeploy.entity;
 
-mport com.example.finaldeploy.controller.dto.ProductDto;
+import com.example.finaldeploy.controller.dto.ProductDto;
+
+import com.example.finaldeploy.controller.dto.ProductDto;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
