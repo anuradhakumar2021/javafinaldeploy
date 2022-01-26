@@ -28,7 +28,7 @@ public class ProductController {
     public Product getProductById(@PathVariable(name="id") Integer id){
         return productService.findById(id);
     }
-
+    @CrossOrigin
     @PostMapping
     public Product save( @RequestBody ProductDto productDto )
     {
